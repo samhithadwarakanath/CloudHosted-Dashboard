@@ -1,6 +1,5 @@
 
 
-# create a new project in the current directory
 # CloudHosted Dashboard — Monolithic Deployment (SvelteKit + Vercel)
 
 This repository contains the CloudHosted Dashboard: a monolithic SvelteKit web application implementing login & authentication, a dashboard UI, SvelteKit server routes for backend logic, Drizzle ORM for DB access, and third-party OAuth (Google) integration. This README documents the deployment architecture, CI/CD, security, scalability, monitoring, logging, and the usage of GenAI (GitHub Copilot) for development.
