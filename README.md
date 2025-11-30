@@ -14,7 +14,7 @@ CloudHosted Dashboard is a single SvelteKit project that contains:
 - Database interactions using Drizzle ORM (`src/lib/db`, `drizzle/` folder)
 - Third-party API usage (Google OAuth, example external APIs)
 
-Production URL (example):
+Production URL:
 
 https://cloudhosted-dashboard-login-861.vercel.app
 
