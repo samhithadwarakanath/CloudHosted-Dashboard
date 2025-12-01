@@ -20,7 +20,7 @@ https://cloudhosted-dashboard-login-861.vercel.app
 
 ---
 
-## Part 1 — Monolithic Deployment (40 pts)
+## Part 1 — Monolithic Deployment 
 
 ### 1.1 Deployment Architecture
 
@@ -101,16 +101,11 @@ Vercel provides built-in monitoring and logging:
 - Error reporting and stack traces
 - Basic analytics (page views, latency) — optional plan features
 
-For the assignment, capture screenshots of:
 
-- Vercel → Deployments list (showing your successful deployment)
-- Vercel → Function logs showing server route activity or auth callbacks
-- Vercel → Project Settings → Environment Variables (safely show names only)
-- The live application (Login page / Dashboard)
 
 ---
 
-## Part 2 — Automated Deployment (CI/CD Pipeline) — 30 pts
+## Part 2 — Automated Deployment (CI/CD Pipeline) 
 
 This project uses GitHub → Vercel integration which provides an automated build→test→deploy→monitor flow.
 
@@ -148,9 +143,9 @@ You can extend this action to run `npm test` or `npx playwright test` for E2E ch
 
 ---
 
-## Part 3 — Security & Scalability (30 pts)
+## Part 3 — Security & Scalability 
 
-### Security Measures (15 pts)
+### Security Measures 
 
 - HTTPS: Vercel enforces HTTPS by default for all deployments.
 - Environment variables: Store secrets only in Vercel's Environment Variables page or local `.env` for development. Never push secrets to Git.
@@ -164,7 +159,7 @@ Developer best practices to follow:
 - Use short-lived tokens where possible.
 - Validate and sanitize inputs on server routes.
 
-### Scalability Measures (10 pts)
+### Scalability Measures
 
 Vercel provides horizontal autoscaling, serverless concurrency, global CDN, and zero-downtime deployments. SvelteKit offers SSR and static optimization, allowing the app to scale naturally under load.
 
@@ -203,7 +198,7 @@ Example wording you can include in the assignment report:
 
 ---
 
-## Required Screenshots (for assignment submission)
+## Required Screenshots 
 
 1. Vercel: Project Deployment <img width="1710" height="957" alt="image" src="https://github.com/user-attachments/assets/1b500827-ec92-422c-a77a-ab695e43ec33" />
 
@@ -216,9 +211,11 @@ Example wording you can include in the assignment report:
 https://github.com/user-attachments/assets/4afb0c2f-c4b4-4316-85c1-1a225f40948f
 
 
-5. Project Listing: <img width="616" height="377" alt="image" src="https://github.com/user-attachments/assets/4d4073c7-83a4-4b63-a759-ecb71e6956fd" />
+5. Project Listing:
+   <img width="616" height="377" alt="image" src="https://github.com/user-attachments/assets/4d4073c7-83a4-4b63-a759-ecb71e6956fd" />
 
-6. Vercel: Environment Variables page (show only variable names, not secret values) <img width="979" height="461" alt="image" src="https://github.com/user-attachments/assets/f74c53ef-71c7-47eb-921d-5fcd638932f1" />
+6. Vercel: Environment Variables page
+    <img width="979" height="461" alt="image" src="https://github.com/user-attachments/assets/f74c53ef-71c7-47eb-921d-5fcd638932f1" />
 
 
 ## How to Run Locally
@@ -257,7 +254,7 @@ Open http://localhost:5173 to view the app.
 
 ## Contact / Credits
 
-Repo maintained by: samhithadwarakanath
+Author: samhithadwarakanath
 
 Built with: SvelteKit, Drizzle ORM, Vercel
 
