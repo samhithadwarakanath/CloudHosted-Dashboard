@@ -1,7 +1,7 @@
 import { redirect } from '@sveltejs/kit';
 import { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REDIRECT_URI } from '$env/static/private';
 import { OAuth2Client } from 'google-auth-library';
-import { upsertUser } from '$lib/db/User.db.ts';
+import { upsertUser } from '$lib/db/User.db';
 
 export async function GET({ url, cookies }) {
 	const code = url.searchParams.get('code');
